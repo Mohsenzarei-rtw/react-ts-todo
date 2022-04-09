@@ -1,3 +1,7 @@
+# About this project!
+Hi, this is a react test project with typescript, which uses the Redux Toolkit to manage states
+I would be very happy if I know your opinion about it
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

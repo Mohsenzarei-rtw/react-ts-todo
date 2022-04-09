@@ -1,0 +1,78 @@
+.todoCard {
+  background-color: white;
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 0.5rem;
+}
+.todoTitle {
+  width: 100%;
+  background-color: white;
+  font-size: large;
+  text-align: center;
+  border: 1px solid #0056f5;
+  border-radius: 0.5rem;
+  font-size: large;
+  font-weight: bold;
+  outline: none !important;
+}
+
+.todoTitle:disabled {
+  border: none;
+}
+.CTA {
+  display: flex;
+  justify-content: space-around;
+}
+.btn {
+  width: 30%;
+  padding: 0.25rem 0.5rem;
+  font-weight: bold;
+  border-radius: 0.25rem;
+  overflow: hidden;
+  border: none;
+  margin: 0.25rem;
+  opacity: 0.7;
+  color: white;
+
+  transition: 0.25s;
+}
+.btn:hover {
+  opacity: 0.8;
+}
+.btn:active {
+  opacity: 1;
+}
+.btn.edit {
+  background-color: #0056f5;
+}
+.btn.set {
+  background-color: #fb590e;
+}
+.btn.remove {
+  background-color: #ff006e;
+}
+.btn.done {
+  background-color: #38b000;
+}
+.btn.unDone {
+  background-color: #cc9600;
+}
+
+@media (min-width: 1200px) {
+  .todoCard {
+    flex-direction: row;
+  }
+  .CTA {
+    justify-content: space-around;
+    width: 30%;
+  }
+  .btn {
+    width: auto;
+  }
+  .todoTitle {
+    width: 70%;
+  }
+}

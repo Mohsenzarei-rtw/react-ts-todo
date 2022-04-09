@@ -1,0 +1,42 @@
+.todos {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.clearTodoTxt {
+  font-size: large;
+  font-weight: bold;
+  text-align: center;
+}
+.notCompleted {
+  width: 90%;
+  background-color: #6914e1;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  margin: 1rem 0;
+}
+.Completed {
+  width: 90%;
+  background-color: #6914e1;
+  border-radius: 1rem;
+  padding: 1rem;
+  color: white;
+  text-align: center;
+  margin: 1rem 0;
+}
+
+@media (min-width: 768px) {
+  .todos {
+    flex-direction: row;
+  }
+  .notCompleted {
+    width: 45%;
+  }
+  .Completed {
+    width: 45%;
+  }
+}
